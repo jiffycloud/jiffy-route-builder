@@ -1,6 +1,6 @@
 {
   "name": "jiffy-route-builder",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Jiffy Route Builder",
   "scripts": {
     "build": "tsc",
@@ -20,10 +20,11 @@
   ],
   "main": "./lib/index.js",
   "homepage": "https://github.com/jiffycloud/jiffy-route-builder#readme",
+  "dependencies": {
+    "route-recognizer": "^0.3.3"
+  },
   "devDependencies": {
     "@types/node": "^8.0.47",
-    "route-recognizer": "^0.3.3",
-    "typescript": "^2.6.2",
-    "webpack": "^3.10.0"
+    "typescript": "^2.6.2"
   }
 }
