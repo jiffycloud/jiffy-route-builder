@@ -1,0 +1,29 @@
+{
+  "name": "jiffy-route-builder",
+  "version": "0.0.1",
+  "description": "Jiffy Route Builder",
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiffycloud/jiffy-route-builder.git"
+  },
+  "author": "JiffyCloud",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jiffycloud/jiffy-route-builder/issues"
+  },
+  "files": [
+    "lib/"
+  ],
+  "main": "./lib/index.js",
+  "homepage": "https://github.com/jiffycloud/jiffy-route-builder#readme",
+  "devDependencies": {
+    "@types/node": "^8.0.47",
+    "route-recognizer": "^0.3.3",
+    "typescript": "^2.6.2",
+    "webpack": "^3.10.0"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "baseUrl": "",
+    "target": "es5",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "declaration": true,
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "outDir": "lib/",
+    "rootDir": "src",
+    "jsx":"react",
+    "skipLibCheck": true,
+    "types": ["node"],
+    "typeRoots": ["../../../node_modules/@types"],
+    "lib": [ "es2015", "dom" ]
+  },
+  "compileOnSave": false,
+  "buildOnSave": false,
+  "exclude": [
+    "node_modules",
+    "lib",
+    "bootstrap.tsx"
+  ]
+}

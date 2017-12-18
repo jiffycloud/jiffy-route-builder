@@ -1,0 +1,5 @@
+{
+    "terminal.integrated.env.osx": {
+        "PATH": "/Users/tiagoroldao/.platformio/penv/bin:/usr/local/gcc_arm/gcc-arm-none-eabi-5_4-2016q2/bin/:/usr/local/mysql/bin:/Users/tiagoroldao/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/Library/Frameworks/Python.framework/Versions/3.5/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/share/dotnet:/usr/local/go/bin:/usr/local/MacGPG2/bin:/Users/tiagoroldao/go/bin"
+    }
+}
